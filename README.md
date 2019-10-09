@@ -1,7 +1,6 @@
 # quadrotor_ros 
 
-1. Launch simulation of AR Drone in Gazebo :
-```
+1. Launch simulation of AR Drone in Gazebo : (forked from ![Qlabs](https://github.com/pulver22/QLAB))
 roslaunch qlab_gazebo drone.launch
 ```
 
