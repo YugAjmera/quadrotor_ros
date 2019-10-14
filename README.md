@@ -11,7 +11,7 @@ roslaunch qlab_gazebo drone.launch
 rosrun teleop_keyboard quadrotor_teleop_keyboard.py
 ```
 
-3. Perform PTAM (Parllel Tracking and Mapping) for visual navigation : ([More Info](https://github.com/tum-vision/tum_ardrone))
+3. Perform PTAM (Parllel Tracking and Mapping) for visual navigation : ([More Info](https://vision.in.tum.de/data/software/tum_ardrone))
 ```
 roslaunch tum_ardrone tum_ardrone.launch
 ```
