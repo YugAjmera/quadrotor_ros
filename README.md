@@ -5,10 +5,14 @@ Implemented everything on ROS Kinetic + Ubuntu 16.04
 ```
 roslaunch qlab_gazebo drone.launch
 ```
+or
+```
+roslaunch cvg_sim_gazebo drone.launch
+```
 
 2. Teleop the quadrotor using keyboard :
 ```
-rosrun teleop_keyboard quadrotor_teleop_keyboard.py
+rosrun quadrotor_teleop_keyboard quadrotor_teleop_keyboard.py
 ```
 
 3. Perform PTAM (Parllel Tracking and Mapping) for visual navigation : ([More Info](https://vision.in.tum.de/data/software/tum_ardrone))
